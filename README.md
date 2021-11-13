@@ -11,4 +11,6 @@ Coronavirus case Predictor uses the following input feature-vectors:
   - State number of vaccinated people (one dose only)
   - State number of fully vaccinated people (two doses)
 
+**Output**: New Case Count
+
 ## Neural Network Model
