@@ -8,9 +8,13 @@ Coronavirus case Predictor uses the following input feature-vectors:
   - State new cases/day ( historical data from: this date to this date )
   - State total Covid cases
   - State mask mandate
-  - State number of vaccinated people (one dose only)
-  - State number of fully vaccinated people (two doses)
+  - State number of fully vaccinated people (two doses or more)
+  - State daily infection rate per 100 people as defined:
+    - number of new cases / state population * 100
+  - State daily death rate per 100 people as defined below:
+    - number of new deaths / state population * 100
 
-**Output**: New Case Count
+
+**Output**: New Case Count, New Death Count
 
 ## Neural Network Model
